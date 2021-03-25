@@ -11,8 +11,8 @@ import { RodapeComponent } from './rodape/rodape.component';
 import { LoginComponent } from './login/login.component';
 import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { InicioComponent } from './inicio/inicio.component';
-import { importType } from '@angular/compiler/src/output/output_ast';
 import { TemaComponent } from './tema/tema.component';
+
 
 
 @NgModule({
