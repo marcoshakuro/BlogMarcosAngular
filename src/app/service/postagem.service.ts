@@ -32,6 +32,6 @@ export class PostagemService {
   }
 
   deletePostagem(id: number){
-    return this.http.delete(`${environment.server}${environment.port}/postagens/${id}`, {headers: {'Authorization': environment.token}})
+    return this.http.delete(`${environment.server}${environment.port}/postagens/${id}`, {headers: {'Authorization': environment.token}} )
   }
 }
